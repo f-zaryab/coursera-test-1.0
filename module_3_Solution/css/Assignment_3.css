@@ -1,0 +1,105 @@
+/*===========================================
+                Basic CSS
+============================================*/
+body {
+    font-size: 16px;
+    color: black;
+    background-color: gray;
+    /*#61122f;*/
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    width: 100%;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+/*#logo-img {
+    /*background: url()*/
+/*width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0px;
+}*/
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #557c3e;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    line-height: 0.75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin: 0px;
+    /*Editied, Original: margin-top:10px*/
+}
+
+#nav-list a {
+    color: black;
+    font-weight: 400;
+    text-align: center;
+    background-color: lemonchiffon;
+
+}
+
+#collapsable-nav {
+    padding: 0;
+
+}
+
+#nav-list a:hover {
+    background: #fff;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+
+/*=====================================================================
+                        Menu Styles
+=====================================================================*/
+#chicken-tile,
+#beef-tile,
+#sushi-tile {
+    height: 700px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 15px;
+}
+
+#chicken-tile:hover,
+#beef-tile:hover,
+#sushi-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
